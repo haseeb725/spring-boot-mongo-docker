@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  springapp:
+    environment:
+    - MONGO_DB_USERNAME=intdb
+    - MONGO_DB_PASSWORD=intdb123
+  mongo:
+    environment:
+    - MONGO_INITDB_ROOT_USERNAME=intdb
+    - MONGO_INITDB_ROOT_PASSWORD=intb123
