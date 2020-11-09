@@ -8,4 +8,4 @@ services:
   mongo:
     environment:
     - MONGO_INITDB_ROOT_USERNAME=intdb
-    - MONGO_INITDB_ROOT_PASSWORD=intb123
+    - MONGO_INITDB_ROOT_PASSWORD=intdb123
